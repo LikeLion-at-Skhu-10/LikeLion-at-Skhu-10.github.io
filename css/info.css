@@ -1,0 +1,166 @@
+.info {
+    overflow: hidden;
+}
+
+.introduce {
+    position: relative;
+    padding: 10vw 0vw 10vw 0vw;
+}
+
+.info_box {
+    display: flex;
+    border-right: 0.2vw solid #FF9E1B;
+    margin-right: 1.3vw;
+}
+
+.info_box img {
+    width: 35vw;
+    height: 25vw;
+    padding-top: 2.5vw;
+}
+
+.intro_container {
+    width: 50vw;
+    height: 30vw;
+    padding-left: 3vw;
+    padding-right: 2vw;
+}
+
+.intro_container .title {
+    text-align: right;
+    font-size: 2vw;
+}
+
+.intro_container p {
+    text-align: right;
+    font-size: 1.45vw;
+}
+
+#info_star {
+    position: absolute;
+    max-width: 8%;
+    height: auto;
+    left: 94.1%;
+    top: 75%;
+}
+
+.recruit {
+    position: relative;
+    padding: 10vw 0vw 10vw 0vw;
+}
+
+.recruit_wait p {
+    text-align: center;
+    color: lightgray;
+    font-size: 1vw;
+    width: 100%;
+}
+
+.recruit_box {
+    display: flex;
+}
+
+.recruit_box img {
+    width: 35vw;
+    height: 25vw;
+    padding-top: 6vw;
+}
+
+.recruit_container {
+    width: 50vw;
+    height: 30vw;
+    padding-top: 2.5vw;
+    padding-right: 5vw;
+}
+
+.recruit_container .title {
+    font-size: 2.4vw;
+}
+
+.recruit_container p { 
+    text-align: left;
+    font-size: 1.45vw;
+    line-height: 3vw;
+}
+
+.schedule {
+    padding: 10vw 0vw 10vw 0vw;
+    height: 35vw;
+}
+
+.schedule .title {
+    font-size: 2.4vw;
+    margin: 0 0 0 0;
+    color: white;
+}
+
+.schedule p {
+    font-size: 1.4vw;
+    margin: 0.7vw 0 2.3vw 0;
+    color: lightgray;
+}
+
+.schedule_container {
+    overflow: auto;
+    /* width: 85vw; */
+    height: 20vw;
+    padding: 0 0 0 1vw;
+    line-height: 2.5vw;
+    font-size: 1.5vw;
+    border-left: 0.2vw solid #FF9E1B; 
+    /* 왼쪽 줄 */
+}
+
+.schedule_container::-webkit-scrollbar { 
+    /* 스크롤바 전체 영역 */
+    width: 0.5vw;
+}
+
+.schedule_container::-webkit-scrollbar-thumb {
+    /* 스크롤 */
+    background-color: #FF9E1B;
+    border-top: 4vw solid black;
+    border-bottom: 4vw solid black;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    margin: 10vw 0vw 10vw 0vw;
+    width: -webkit-fill-available;
+    border: 0.5vw solid #FF9E1B;
+}
+
+.must {
+    position: relative;
+    margin: 10vw 0vw 15vw 0vw;
+    text-align: center;
+    width: 100%;
+}
+
+.must p {
+    line-height: 1.7vw;
+    font-size: 1.3vw;
+}
+
+.must .title {
+    font-size: 2.4vw;
+}
+
+.rule {
+    padding-bottom: 3vw;
+}
+
+.download_link {
+    font-size: 1.3vw;
+    color: darkgray;
+    text-decoration: none;
+}
+
+.download_link:hover {
+    color: #FF9E1B;
+    cursor: pointer
+}

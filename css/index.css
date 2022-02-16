@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    color:white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 10px;
+    margin: 10px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#wrapper{
+    height: auto;
+    min-height: 100%;
+    padding: 0px 5vw 0px 5vw;
+    margin: 0px 5vw 0px 5vw;
+}
+
+footer{
+    height: 40px;
+    position: relative;
+    transform: translateY(-100%);
+    text-align: center;
+}
+
+header{
+    background-color:rgba(58, 58, 58, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 55px;
+}
+
+.header_text{
+    float: left;
+    width: 50%;
+    padding: 5px 0 0 20px;
+    font-weight: bolder;
+}
+
+.H_orange{
+    font-size: 1.4vw;
+    color: #FF9E1B;
+}
+
+.orange{
+    color: #FF9E1B;
+}
+
+.footlion{
+    font-size: 1.4vw;
+    margin: 5px 0 25px 0;
+    width: 100%;
+}
+
+.number{
+    margin: 15px 0px 0 0;
+    font-size: 1.2vw;
+    width: 100%;
+}
+.insta{
+    margin: 2px 0 2px;
+    font-size: 1.2vw;
+    width: 100%;
+}
+.LIKELION{
+    font-size: 1.2vw;
+    width: 100%;
+    margin: 2px 0 2px;
+}
+.github{
+    font-size: 1.2vw;
+    width: 100%;
+    margin: 2px 0 2.5vw;
+}

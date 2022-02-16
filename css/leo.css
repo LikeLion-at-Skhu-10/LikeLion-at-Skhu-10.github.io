@@ -1,0 +1,403 @@
+.leo {
+    text-align: center;
+    font-size: 16px;
+}
+
+.leo_top {
+    position: relative;
+    display: inline-block;
+}
+
+.leo p {
+    font-size: 2rem;
+    line-height: 0.04em; /*문장 세로 간격*/
+    padding-left: 7%;
+}
+
+.leo hr {
+    width: 25em;
+    height: 0.2em;
+    border: none;
+    background-color: #FF9E1B;
+}
+
+#leo_search {
+    width: 7%;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+.leo_bottom {
+    position: relative;
+}
+
+#leo_lion {
+    width: 70%;
+    height: auto;
+    border-radius: 0%;
+}
+
+.leo_star img {
+    max-width: 10%;
+    height: auto;
+    cursor: pointer;
+}
+
+#leo_video {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+
+#leo_introduce {
+    position: absolute;
+    top: 2.7%;
+    right: 22%;
+}
+
+#leo_recruit {
+    position: absolute;
+    top: 8.5%;
+    right: 29.8%;
+}
+
+#leo_schedule {
+    position: absolute;
+    top: 25.8%;
+    right: 32.6%;
+}
+
+#leo_rulecurri {
+    position: absolute;
+    top: 20.5%;
+    left: 31.5%;
+}
+
+#leo_slide {
+    position: absolute;
+    top: 42%;
+    left: 16.5%;
+}
+
+#leo_event {
+    position: absolute;
+    top: 43.5%;
+    left: 34.5%;
+}
+
+#leo_madein {
+    position: absolute;
+    top: 56.7%;
+    right: 25%;
+}
+
+#leo_footer {
+    position: absolute;
+    top: 37.8%;
+    right: 24.2%;
+}
+
+@media screen and (max-device-width: 425px){
+    #leo_lion {
+        width: 90%;
+        height: auto;
+        border-radius: 0%;
+    }
+
+    .leo_bottom {
+        position: relative;
+    }
+
+    .leo_star img {
+        max-width: 14%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #leo_video {
+        position: absolute;
+        top: 10.7%;
+        right: 3.7%;
+    }
+
+    #leo_introduce {
+        position: absolute;
+        top: 2.5%;
+        right: 13.5%;
+    }
+
+    #leo_recruit {
+        position: absolute;
+        top: 8%;
+        right: 23.8%;
+    }
+    
+    #leo_schedule {
+        position: absolute;
+        top: 25%;
+        right: 27.2%;
+    }
+    
+    #leo_rulecurri {
+        position: absolute;
+        top: 19.7%;
+        left: 25.5%;
+    }
+    
+    #leo_slide {
+        position: absolute;
+        top: 41.8%;
+        left: 6.2%;
+    }
+    
+    #leo_event {
+        position: absolute;
+        top: 42.1%;
+        left: 29.4%;
+    }
+    
+    #leo_madein {
+        position: absolute;
+        top: 56.5%;
+        right: 17.5%;
+    }
+    
+    #leo_footer {
+        position: absolute;
+        top: 37.8%;
+        right: 16%;
+    }
+}
+
+#leo_one {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_one::before {
+    content: "소개영상 이동";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 11%;
+    bottom: 1%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;
+  }
+  
+  @keyframes typing{
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+#leo_two {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_two::before {
+    content: "멋사소개 이동";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 11%;
+    bottom: 1%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;
+  }
+
+#leo_three {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_three::before {
+    content: "모집대상 이동";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 11%;
+    bottom: 1%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;
+  }
+  
+#leo_four {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_four::before {
+    content: "모집일정 이동";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 11%;
+    bottom: 1%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;
+  }
+
+#leo_five {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_five::before {
+    content: "규칙 & 커리큘럼 이동";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 7%;
+    bottom: 1%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;
+  }
+
+#leo_six {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_six::before {
+    content: "지난해 프로젝트 이동";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 7%;
+    bottom: 1%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;
+  }
+
+
+#leo_seven {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_seven::before {
+    content: "이벤트 참여 이동";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 9%;
+    bottom: 1%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;
+  }
+
+#leo_eight {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_eight::before {
+    content: "운영진들 이동";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 11%;
+    bottom: 1%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;
+  }
+
+#leo_nine {
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 100%);
+  }
+  
+#leo_nine::before {
+    content: "멋사정보 이동";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 11%;
+    bottom: 1%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-right: .10em solid orange;
+    animation: typing 1s, 
+    blink-caret .7s step-end infinite;
+  }
