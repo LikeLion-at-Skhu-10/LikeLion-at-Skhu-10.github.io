@@ -1,13 +1,4 @@
-.programmers{
-    position : relative;
-    width : 150px;
-    height: 150px;
-    overflow : hidden;
-    background-image: url("../img/sina/규빈.jpeg");
-    background-size : cover;
-    margin-right:10px;
-    margin-bottom: 10px;
-}
+
 
 .line:first-child .madein:nth-child(2) .programmers:first-child{
     background-image: url("../img/sina/minjeung.jpeg");
@@ -16,7 +7,7 @@
     background-image: url("../img/sina/수진.jpeg");
 } 
 .line:first-child .madein:nth-child(4) .programmers:first-child{
-    background-image: url("../img/sina/신아.jpg");
+    background-image: url("../img/sina/sina.jpg");
 } 
 .line:last-child .madein:nth-child(1) .programmers:first-child{
     background-image: url("../img/sina/김예지.jpeg");
@@ -34,13 +25,27 @@
 .programmers:hover .hidden_madein_box{
     top : 0;
 }
+.programmers{
+    width: 100%;
+    position : relative;
+    width : 15vw;
+    height: 15vw;
+    overflow : hidden;
+    background-image: url("../img/sina/규빈.jpeg");
+    background-size : cover;
+    margin-right:1vw;
+    margin-bottom: 1vw;
+}
+.programmers:hover .hidden_madein_box{
+    top : 0;
+}
 .hidden_madein_box{
     /* 마우스 올렸을 때 */
-    top : 150px;
+    top : 15vw;
     background-color : rgba(255,165,0,0.5);
     position : absolute;
-    width : 150px;
-    height : 150px;
+    width : 15vw;
+    height : 15vw;
     transition : all 0.5s;
     display : flex;
     justify-content: center;
@@ -53,7 +58,7 @@
 
 
 .line_total_cover{
-    margin: 1vw 0 15vw 0;
+    margin: 0 0 15vw 0;
 }
 a:link { text-decoration: none;}
 a:visited { color: white; text-decoration: none;}
@@ -62,4 +67,6 @@ a:hover { color: white; text-decoration: none;}
 .programmers_title{
     text-align: center;
     width: 100%;
+    padding: 5vw 0 0 0;
+    font-size: 1.2vw;
 }
