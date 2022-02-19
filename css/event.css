@@ -35,10 +35,7 @@
     text-align: right;
     color: white;
 }
-.event_form a:hover{
-    color: #FF9E1B;
-    cursor: pointer;
-}
+
 
 .event_orange{
     color: #FF9E1B;
